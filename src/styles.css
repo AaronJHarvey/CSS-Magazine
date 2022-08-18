@@ -11,3 +11,9 @@ html {
 	/* having a rounded number like this makes using rem units easier - 2rem would be 20px */
 	box-sizing: border-box;
 }
+
+body {
+	font-family: Baskervville, serif;
+	color: linen;
+	background-color: rgb(20, 30, 40);
+}
