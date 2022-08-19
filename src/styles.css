@@ -65,6 +65,7 @@ main {
 	letter-spacing: .6px;
 	column-width: 25rem;
 	/* even though .text is not a grid you can create columns within it using column-width */
+	text-align: justify;
 }
 
 .hero {
