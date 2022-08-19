@@ -54,3 +54,7 @@ main {
 	/* tells the grid item which line to start and end at 
 	- starts content on line 2 and ends on line 3 */
 }
+
+.text {
+	grid-column: 2/3;
+}
