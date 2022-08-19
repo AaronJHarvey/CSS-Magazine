@@ -138,3 +138,11 @@ hr {
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
 }
+
+.quote::before {
+	content: '" ';
+}
+
+.quote::after {
+	content: ' "';
+}
