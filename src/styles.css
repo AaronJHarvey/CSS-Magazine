@@ -40,9 +40,11 @@ a {
 main {
 	display: grid;
 	/* offers a two dimensional grid-based layout allowing for the centering of items vertically and horizontally while retaining control to do things like overlap elements */
-	grid-template-columns: minmax(2rem, 1fr) min(min-content, 94rem) minmax(2rem, 1fr);
+	grid-template-columns: minmax(2rem, 1fr) minmax(min-content, 94rem) minmax(2rem, 1fr);
 	/* gives the parent element a three-column layout 
 	- creates 3 columns where the middle column is 94rem (940px) wide and the first and last columns are 1 fraction of the remaining space in the grid container */
 	/* minmax - a function that makes the columns responsive on any device it is viewed on 
 	- takes in 2 arguments - the min and the max */
+	row-gap: 3rem;
+	/* adds space between rows in the grid layout */
 }
