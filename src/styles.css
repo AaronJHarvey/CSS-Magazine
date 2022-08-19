@@ -34,3 +34,10 @@ a {
 	text-decoration: none;
 	color: linen;
 }
+
+/* Setting up Grid below here: */
+
+main {
+	display: grid;
+	/* offers a two dimensional grid-based layout allowing for the centering of items vertically and horizontally while retaining control to do things like overlap elements */
+}
