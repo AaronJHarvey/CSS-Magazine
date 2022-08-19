@@ -57,6 +57,7 @@ main {
 	grid-template-columns: repeat(2, 1fr);
 	/* gives this class 2 columns, each with 1fr width. 
 	- repeat() is a function that allows you to repeat a value rather than having to write it out manually each time */
+	row-gap: 1.5rem;
 }
 
 .text {
