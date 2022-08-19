@@ -96,3 +96,7 @@ img {
 	background-color: #306203;
 	/* changes the background color of the author-name class when someone hovers over it */
 }
+
+.publish-date {
+	color: rgba(255, 255, 255, .5);
+}
