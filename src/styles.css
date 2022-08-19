@@ -68,3 +68,10 @@ main {
 	grid-column: 1/-1;
 	position: relative;
 }
+
+.img {
+	width: 100%;
+	object-fit: cover;
+	/* object-fit tells the browser how to positive the element within its container
+	- cover sets the img to fill the container - will crop if needed to fix aspect ratio */
+}
