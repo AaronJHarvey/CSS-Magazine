@@ -109,4 +109,6 @@ img {
 	grid-auto-flow: column;
 	/* makes it so that if an addition element is added to this class a new column is added to keep the layout consistent */
 	/* grid-auto-flow takes in either row or colum as it's value and an optional second value of dense.  */
+	grid-auto-columns: 1fr;
+	/* sets the columns that are added automatically to be the same size as the rest */
 }
