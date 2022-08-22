@@ -170,4 +170,7 @@ hr {
 
 .image-wrapper {
 	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-template-rows: repeat(3, min-content);
+	/* gives the grid rows that adjust in height based on the content, but the columns remain fixed width based on the container */
 }
