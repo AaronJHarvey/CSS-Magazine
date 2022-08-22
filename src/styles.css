@@ -180,3 +180,8 @@ hr {
 	/* place-items can be used to set align-items and justify items at the same time. It takes it 1-2 values.
 	If one value is given, align-items and justify-items are the same - if 2 values are given the first value is align-items, the second value is justify-items */
 }
+
+.image-1,
+.image-3 {
+	grid-column: 1/-1;
+}
