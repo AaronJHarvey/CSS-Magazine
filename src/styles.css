@@ -167,3 +167,7 @@ hr {
 .list-subtitle {
 	color: #00beef;
 }
+
+.image-wrapper {
+	display: grid;
+}
